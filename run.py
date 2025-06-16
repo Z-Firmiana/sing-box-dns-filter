@@ -5,7 +5,8 @@ from typing import List, Set
 # --- 配置 ---
 FILTER_URLS: List[str] = [
     "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
-    "https://raw.githubusercontent.com/Z-Firmiana/sing-box-dns-filter/refs/heads/main/test.txt",
+    "https://big.oisd.nl",
+    "https://o0.pages.dev/Lite/adblock.txt",
 ]
 OUTPUT_FILENAME: str = "temp_filters.txt"
 REQUEST_TIMEOUT: int = 15 # 增加超时时间
