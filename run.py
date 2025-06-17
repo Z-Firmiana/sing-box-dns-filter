@@ -8,7 +8,7 @@ FILTER_URLS: List[str] = [
     "https://anti-ad.net/adguard.txt",  # Anti-Ad
     "https://big.oisd.nl",  # OISD
     "https://o0.pages.dev/Lite/adblock.txt",  # 1Hosts (Lite)
-    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/multi.txt",  # Hagezi DNS Blocklists
+    "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=adblockplus&showintro=1&mimetype=plaintext",  # Peter Lowe
 ]
 OUTPUT_FILENAME: str = "temp_filters.txt"
 REQUEST_TIMEOUT: int = 15 # 增加超时时间
