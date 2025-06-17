@@ -4,9 +4,11 @@ from typing import List, Set
 
 # --- 配置 ---
 FILTER_URLS: List[str] = [
-    "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
-    "https://big.oisd.nl",
-    "https://o0.pages.dev/Lite/adblock.txt",
+    "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",  # AdGuardSDNSFilter
+    "https://anti-ad.net/adguard.txt",  # Anti-Ad
+    "https://big.oisd.nl",  # OISD
+    "https://o0.pages.dev/Lite/adblock.txt",  # 1Hosts (Lite)
+    "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/multi.txt",  # Hagezi DNS Blocklists
 ]
 OUTPUT_FILENAME: str = "temp_filters.txt"
 REQUEST_TIMEOUT: int = 15 # 增加超时时间
